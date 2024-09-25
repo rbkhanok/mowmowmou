@@ -1,0 +1,24 @@
+{
+  "surahs": [
+    {
+      "number": 1,
+      "name": "a",
+      "verses": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "b",
+      "verses": [
+        "(Surah verses)",
+        "(Add verses)",
+        "(Add verses)",
+        "(More verses)"
+      ]
+    }
+  ]
+}
