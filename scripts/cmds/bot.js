@@ -43,7 +43,7 @@ module.exports = {
         } catch (error) {
           console.error(`Failed to get an answer: ${error.message}`);
           api.sendMessage(
-            "An error occurred while processing your request.",
+            "",
             event.threadID,
             event.messageID
           );
@@ -97,7 +97,7 @@ module.exports = {
     } catch (error) {
       console.error(`Failed to get an answer: ${error.message}`);
       await api.sendMessage(
-        "An error occurred while processing your request.",
+        "",
         event.threadID,
         event.messageID
       );
