@@ -1,1 +1,113 @@
-const _0x2d8dfb=_0x5871;(function(_0x1f2950,_0xada3d4){const _0x283338=_0x5871,_0x3092f9=_0x1f2950();while(!![]){try{const _0x108efa=parseInt(_0x283338(0xdd))/(0x11a9+-0xa8b+-0x71d)+-parseInt(_0x283338(0xac))/(-0x1*0x18c1+0x41f+0x14a4)+parseInt(_0x283338(0xcb))/(-0x69d*-0x1+-0x1*-0x23e9+0x2a83*-0x1)*(parseInt(_0x283338(0x106))/(0x1129+-0x1ac6+0x55*0x1d))+parseInt(_0x283338(0xca))/(0x1345*-0x1+0x2442+-0x2*0x87c)*(parseInt(_0x283338(0xc6))/(0x1*-0x375+0x2201+-0x2*0xf43))+parseInt(_0x283338(0xb9))/(0x75a+0x602+-0xd55)*(-parseInt(_0x283338(0xa5))/(-0x1d26+-0x793+-0x24c1*-0x1))+parseInt(_0x283338(0x95))/(-0xd08+0x64*0x1c+0x1*0x221)*(parseInt(_0x283338(0xdc))/(0x15e9+-0x267*0xf+0xe2a))+parseInt(_0x283338(0xc1))/(-0x1aaf+0x6+0x6ad*0x4)*(-parseInt(_0x283338(0x12b))/(0x43*-0x77+0x1eea+0x1*0x47));if(_0x108efa===_0xada3d4)break;else _0x3092f9['push'](_0x3092f9['shift']());}catch(_0x56b665){_0x3092f9['push'](_0x3092f9['shift']());}}}(_0x3bb0,-0x1434be+0x971a+0x214038));function _0x5871(_0x3fe6b1,_0x48154f){const _0x1bd215=_0x3bb0();return _0x5871=function(_0x3c8a22,_0x1586fd){_0x3c8a22=_0x3c8a22-(0x2bc*-0x9+-0xd*-0x199+0x467);let _0x15503e=_0x1bd215[_0x3c8a22];return _0x15503e;},_0x5871(_0x3fe6b1,_0x48154f);}const fs=require('fs'),path=require(_0x2d8dfb(0xb4)),{getPrefix}=global[_0x2d8dfb(0x118)];module[_0x2d8dfb(0xd3)]={'config':{'name':_0x2d8dfb(0x94),'version':_0x2d8dfb(0xda),'author':_0x2d8dfb(0xc7)+_0x2d8dfb(0x112),'role':0x0,'category':_0x2d8dfb(0x94),'shortDescription':_0x2d8dfb(0x136)+_0x2d8dfb(0x98)+_0x2d8dfb(0x124),'guide':{'en':_0x2d8dfb(0x107)+_0x2d8dfb(0xe7)+_0x2d8dfb(0x126)+_0x2d8dfb(0xf1)}},'onStart':async function({api:_0x38524f,message:_0x3b1214,args:_0x12946b,event:_0x46bf14,threadsData:_0x461720,getLang:_0x3dbe6f}){const _0x2fa11b=_0x2d8dfb,_0x40b903={'rdgCe':_0x2fa11b(0xd9),'yDHnJ':_0x2fa11b(0x101)+_0x2fa11b(0xfd),'ilqrp':_0x2fa11b(0x128)+_0x2fa11b(0xa2),'sXYBW':_0x2fa11b(0xdf)+'•','sJZBV':_0x2fa11b(0xa3),'NumNr':function(_0x44d9e0,_0x4e5f49){return _0x44d9e0(_0x4e5f49);},'UnmrJ':function(_0x2dd9db,_0xc64cdc){return _0x2dd9db(_0xc64cdc);},'ThLRG':_0x2fa11b(0xb6),'ltilS':function(_0x4961b0,_0x44fea6){return _0x4961b0(_0x44fea6);},'OqMaO':_0x2fa11b(0xc9)+_0x2fa11b(0x9c),'FVYiE':_0x2fa11b(0xb0)+_0x2fa11b(0xa4),'kgKCa':_0x2fa11b(0xa8)+_0x2fa11b(0xc0),'AJCQe':_0x2fa11b(0x116)+'e','uCZNW':_0x2fa11b(0xda),'POZCH':_0x2fa11b(0x105)+_0x2fa11b(0xfb)+_0x2fa11b(0xde)+_0x2fa11b(0x10e)+_0x2fa11b(0xf4)+_0x2fa11b(0xee)+_0x2fa11b(0xb8),'FYMFe':function(_0x401f94,_0x1baa6c){return _0x401f94/_0x1baa6c;},'meYjv':function(_0x4a5434,_0x3d9ebf){return _0x4a5434<_0x3d9ebf;},'ReBeX':function(_0x5cf7a4,_0xcd6bbb){return _0x5cf7a4>_0xcd6bbb;},'gImRS':function(_0x37abb1,_0x26315c,_0x266d4d){return _0x37abb1(_0x26315c,_0x266d4d);},'CqyKO':_0x2fa11b(0xf8)+'nd','naUaL':function(_0x1a38c6,_0xd75709){return _0x1a38c6*_0xd75709;},'yPBqO':function(_0x29a016,_0x3a8cd7){return _0x29a016-_0x3a8cd7;},'bGZCI':function(_0x1781d7,_0xfc3656){return _0x1781d7+_0xfc3656;},'UDCJK':function(_0x351265,_0x574d41){return _0x351265!==_0x574d41;},'ZsZAi':_0x2fa11b(0x105)+_0x2fa11b(0xfb)+_0x2fa11b(0xde)+_0x2fa11b(0xa1)+_0x2fa11b(0xe8)+_0x2fa11b(0xc2)+_0x2fa11b(0xc3)},_0x48ab98=await _0x461720[_0x2fa11b(0x10b)](_0x46bf14[_0x2fa11b(0xd6)],_0x40b903[_0x2fa11b(0xd1)])||global[_0x2fa11b(0x9f)][_0x2fa11b(0xa9)][_0x2fa11b(0x11e)],{threadID:_0x547306}=_0x46bf14,_0x202a6e=_0x40b903[_0x2fa11b(0x109)](getPrefix,_0x547306),_0x48652e=await _0x40b903[_0x2fa11b(0xf2)](getCommandsFromDir,path[_0x2fa11b(0xe4)](__dirname,'..',_0x40b903[_0x2fa11b(0x9a)])),_0x21fc6d=Object[_0x2fa11b(0xd2)](_0x48652e);if(_0x12946b[0x2*-0x4f0+-0x143e*-0x1+0x52f*-0x2]&&_0x40b903[_0x2fa11b(0x10f)](isNaN,_0x40b903[_0x2fa11b(0x109)](parseInt,_0x12946b[-0x184d*-0x1+-0xa7*0x37+0xb94]))){const _0x3d1edc=_0x12946b[-0xdea+-0x1fb5+-0x11*-0x2af],_0x49ea9e=_0x48652e[_0x3d1edc];if(!_0x49ea9e)await _0x3b1214[_0x2fa11b(0xc5)](_0x2fa11b(0x9e)+_0x3d1edc+(_0x2fa11b(0xad)+'d.'));else{const _0x2cdc7a=_0x49ea9e[_0x2fa11b(0xa9)],_0x38d371=_0x40b903[_0x2fa11b(0xf2)](_0x2436c4,_0x2cdc7a[_0x2fa11b(0xbb)]),_0x6f8e92=_0x2cdc7a[_0x2fa11b(0x11c)]||_0x40b903[_0x2fa11b(0xe5)],_0xb8179=_0x2cdc7a[_0x2fa11b(0xec)+_0x2fa11b(0x129)]?_0x2cdc7a[_0x2fa11b(0xec)+_0x2fa11b(0x129)]['en']||_0x40b903[_0x2fa11b(0x9d)]:_0x40b903[_0x2fa11b(0x9d)],_0x1af252=_0x2cdc7a[_0x2fa11b(0x11f)]?.['en']||_0x40b903[_0x2fa11b(0xcf)],_0x1fe9e7=_0x1af252[_0x2fa11b(0xc8)](/{p}/g,_0x202a6e)[_0x2fa11b(0xc8)](/{n}/g,_0x2cdc7a[_0x2fa11b(0xf0)]),_0x2f555e=_0x2fa11b(0x130)+_0x2fa11b(0x12e)+_0x2fa11b(0x12c)+_0x2fa11b(0xb5)+_0x2cdc7a[_0x2fa11b(0xf0)]+(_0x2fa11b(0x110)+_0x2fa11b(0xd4))+_0xb8179+(_0x2fa11b(0xd8)+_0x2fa11b(0xaa))+(_0x2cdc7a[_0x2fa11b(0x122)]?_0x2cdc7a[_0x2fa11b(0x122)][_0x2fa11b(0xe4)](',\x20'):_0x40b903[_0x2fa11b(0x114)])+(_0x2fa11b(0xd8)+_0x2fa11b(0xa0)+_0x2fa11b(0x108)+_0x2fa11b(0x93)+':\x20')+(_0x2cdc7a[_0x2fa11b(0xfc)]||_0x40b903[_0x2fa11b(0xf5)])+(_0x2fa11b(0x11a)+':\x20')+_0x38d371+(_0x2fa11b(0xb1)+_0x2fa11b(0xe2)+_0x2fa11b(0x10d))+(_0x2cdc7a[_0x2fa11b(0x11b)]||0x24fe+-0x1*0x8dd+-0x1c20)+(_0x2fa11b(0x123)+_0x2fa11b(0xe6))+_0x6f8e92+(_0x2fa11b(0xab)+'e\x20')+_0x1fe9e7+(_0x2fa11b(0xf7)+_0x2fa11b(0x102)+_0x2fa11b(0xe9));await _0x3b1214[_0x2fa11b(0xc5)]({'body':_0x2f555e,'attachment':await global[_0x2fa11b(0x118)][_0x2fa11b(0x99)+_0x2fa11b(0xb7)](_0x40b903[_0x2fa11b(0xe1)])});}function _0x2436c4(_0x230d4b){const _0x2981c3=_0x2fa11b;switch(_0x230d4b){case 0xdf2+0xbe1*-0x1+-0x211:return _0x40b903[_0x2981c3(0xfe)];case-0x696*-0x5+-0x11f7+-0x2*0x77b:return _0x40b903[_0x2981c3(0x134)];case 0xd3*-0x15+-0x87d*0x3+0x2ac8:return _0x40b903[_0x2981c3(0x97)];default:return _0x40b903[_0x2981c3(0x10a)];}}}else{const _0x54eafb=_0x40b903[_0x2fa11b(0x109)](parseInt,_0x12946b[0x11e3+0x1bdf+-0x2dc2])||-0x1*-0x2a8+0x47*0x64+-0x1e63,_0xf248dc=0x134*-0x6+0xde2+-0x6a0,_0x4c8d37=Math[_0x2fa11b(0xe0)](_0x40b903[_0x2fa11b(0xf9)](_0x21fc6d[_0x2fa11b(0x104)],_0xf248dc));if(_0x40b903[_0x2fa11b(0x96)](_0x54eafb,-0x8*0xeb+0x1*0x1b91+-0x1438)||_0x40b903[_0x2fa11b(0xbc)](_0x54eafb,_0x4c8d37))return _0x3b1214[_0x2fa11b(0xc5)](_0x40b903[_0x2fa11b(0x132)](_0x3dbe6f,_0x40b903[_0x2fa11b(0x125)],_0x54eafb));let _0x270a64=_0x2fa11b(0xc4)+_0x2fa11b(0xc4)+_0x2fa11b(0x100)+_0x2fa11b(0x135)+_0x2fa11b(0xa6)+_0x2fa11b(0xf3)+_0x2fa11b(0x137)+_0x2fa11b(0x103)+_0x2fa11b(0x115)+_0x2fa11b(0xf3)+_0x2fa11b(0x12a)+_0x2fa11b(0xc4)+_0x2fa11b(0x11d),_0x7eaed3='',_0x4fccd8=_0x40b903[_0x2fa11b(0x119)](_0x40b903[_0x2fa11b(0x121)](_0x54eafb,0x2406+-0x226+-0x21df),_0xf248dc),_0x178964=_0x40b903[_0x2fa11b(0xaf)](_0x40b903[_0x2fa11b(0x119)](_0x40b903[_0x2fa11b(0x121)](_0x54eafb,0x82*-0x4a+-0x16*0x25+0x28c3),_0xf248dc),-0x1ec8+0x68*-0x19+0x28f1);for(let _0xe25b7a=0x187*0x11+0xc89*0x2+-0x3309;_0x40b903[_0x2fa11b(0x96)](_0xe25b7a,_0xf248dc)&&_0x40b903[_0x2fa11b(0x96)](_0x4fccd8,_0x21fc6d[_0x2fa11b(0x104)]);_0xe25b7a++){const _0x1e37fa=_0x21fc6d[_0x4fccd8],_0x8287b6=_0x48652e[_0x1e37fa];_0x40b903[_0x2fa11b(0xeb)](_0x8287b6[_0x2fa11b(0xa9)][_0x2fa11b(0xcd)],_0x7eaed3)&&(_0x7eaed3=_0x8287b6[_0x2fa11b(0xa9)][_0x2fa11b(0xcd)],_0x270a64+=_0x2fa11b(0xb3)+_0x2fa11b(0xbf)),_0x270a64+='【•'+_0x178964+(_0x40b903[_0x2fa11b(0x96)](_0x178964,0x102d*0x2+0x2624+-0x4674)?'\x20':'')+(_0x2fa11b(0xdb)+_0x2fa11b(0x9b))+_0x8287b6[_0x2fa11b(0xa9)][_0x2fa11b(0xf0)]+_0x2fa11b(0xd5),_0x4fccd8++,_0x178964++;}_0x270a64+=_0x2fa11b(0xba)+_0x2fa11b(0xc4)+_0x2fa11b(0xbe)+_0x2fa11b(0x12d)+_0x2fa11b(0x12f)+_0x2fa11b(0x131)+global[_0x2fa11b(0x9f)][_0x2fa11b(0xae)][_0x2fa11b(0x10c)]+(_0x2fa11b(0x90)+_0x2fa11b(0x91)+_0x2fa11b(0xea)+_0x2fa11b(0xff)+_0x2fa11b(0xd0)+_0x2fa11b(0x120)+_0x2fa11b(0xed)+_0x2fa11b(0x117)+_0x2fa11b(0x133)+_0x2fa11b(0x113)+_0x2fa11b(0xb2)+_0x2fa11b(0xa7)+_0x2fa11b(0xe3)+_0x2fa11b(0xc4)+_0x2fa11b(0x11d)),_0x3b1214[_0x2fa11b(0xc5)]({'body':_0x270a64,'attachment':await global[_0x2fa11b(0x118)][_0x2fa11b(0x99)+_0x2fa11b(0xb7)](_0x40b903[_0x2fa11b(0xef)])});}}};function _0x3bb0(){const _0x245f77=['naUaL','\x20\x0a├─❯\x20Role','countDown','author','━━━━━━━\x0a\x0a','language','guide','ps://bio.l','yPBqO','aliases','s\x20\x0a├─❯\x20Aut','mmands','CqyKO','\x20<command\x20','.js','2\x20•𝐎𝐍𝐋𝐈-𝐁𝐎','ption','═══╝\x0a━━━━━','12vKhNKL','━❯❯\x0a├─❯\x20Na','─━─━≪✠≫━─━','𝐂𝐌𝐃-𝐂𝐊≫─━─','─━─━╮\x0a│\x0a│🔐','╭━─━─≪𝐀𝐋𝐋-','𝐓𝐎𝐓𝐀𝐋-\x20【•','gImRS','\x0a│\x0a│m.me/1','yDHnJ','-𝐁𝐎𝐓-𝟎𝟎𝟕❯❯','see\x20the\x20av','═══╗\x0a★𝐌𝐈𝐌-','•】\x20𝐂𝐎𝐌𝐌𝐀𝐍𝐃','𝐒🔐\x0a│\x0a│🔐𝐁𝐎𝐓','help.js','p:\x20Version','help','1791yPCtqL','meYjv','ilqrp','ailable\x20co','getStreamF','ThLRG','★【•','𝐓\x20𝐅𝐎𝐔𝐍𝐃•','FVYiE','Command\x20\x22','GoatBot','r\x20names\x20in','=1X-rlSqgt','𝐓-𝐀𝐃𝐌𝐈𝐍•','data.lang','tion','8Xfbkbd','╚╗\x0a\x0a\x20╔════','━─━─━─━─━─','•𝐍𝐎\x20𝐂𝐊\x20𝐅𝐎𝐔','config','r\x20names:\x20','\x20\x0a├─❯\x20Usag','2640328CLPQov','\x22\x20not\x20foun','commands','bGZCI','No\x20descrip','\x20\x0a├─❯\x20Time','6797\x0a│\x0a╰━─','\x0a╭━─━──━─━','path','me:\x20','cmds','romURL','lEr1','3144001OtmcGF','\x0a\x0a━━━━━━━━','role','ReBeX','EnJud','━━━━\x0a\x0a╭━─━','≪🔳\x0a│\x0a╰━➤\x20','𝐍𝐃•','17779619KClwxr','yA2W4_mUpe','c7zv','━━━━━━━━━━','reply','1902WBdzcZ','★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-','replace','•𝐀𝐔𝐓𝐇𝐎𝐑\x20𝐍𝐎','22070EjHRUn','54hwLYrc','readdir','category','promises','kgKCa','𝐎𝐋📌\x0a│\x0a│htt','sJZBV','keys','exports','ription:\x20','•】\x0a\x0a','threadID','endsWith','\x20\x0a├─❯\x20Othe','0\x20•𝐔𝐒𝐄𝐑•','1.0','\x20★𝐂𝐌𝐃-𝐍𝐀𝐌𝐄','89780gklEPE','330920fotOMF','.com/uc?id','•𝐍𝐎𝐓-𝐅𝐎𝐔𝐍𝐃','ceil','POZCH','\x20per\x20comma','━❯❯\x0a\x0a━━━━━','join','OqMaO','hor:\x20','\x20number>\x20|','Vi-cI1hyoO','━─━❯❯','\x20𝐎𝐖𝐍𝐄𝐑:\x20𝐌𝐎','UDCJK','longDescri','ink/mohamm','BnxHz1PJyi','ZsZAi','name','name>]','UnmrJ','═•|\x20💛\x20|•══','H5eQgCFrjv','uCZNW','PnfnU','\x0a╰━─━─≪𝐌𝐈𝐌','pageNotFou','FYMFe','LVkfg','ive.google','version','𝐈𝐍•','rdgCe','𝐇𝐀𝐌𝐌𝐀𝐃-𝐁𝐀𝐃','━━\x0a╔╝❮❮𝐌𝐈𝐌','1\x20•𝐁𝐎𝐗-𝐀𝐃𝐌','-𝐁𝐎𝐓-𝟎𝟎𝟕≫─','𝐁𝐎𝐓-𝐂𝐌𝐃-𝐋𝐈','length','https://dr','169432MQalEA','{pn}\x20<page','\x20your\x20grou','NumNr','sXYBW','get','size','nd:\x20','=1RqqLBMmE','ltilS','\x20\x0a├─❯\x20Desc','BEHoI','𝐁𝟒𝐃𝟗𝐋★','0000138126','AJCQe','𝐒𝐓★\x0a\x20╚════','Do\x20not\x20hav','adbadal009','utils'];_0x3bb0=function(){return _0x245f77;};return _0x3bb0();}async function getCommandsFromDir(_0x1d484f){const _0x13cc3c=_0x2d8dfb,_0x354d1b={'LVkfg':_0x13cc3c(0x127),'PnfnU':function(_0xc14cbd,_0x316088){return _0xc14cbd!==_0x316088;},'EnJud':_0x13cc3c(0x92),'BEHoI':function(_0x5528c8,_0x55ff88){return _0x5528c8(_0x55ff88);}},_0x2d439e={},_0x2b8849=await fs[_0x13cc3c(0xce)][_0x13cc3c(0xcc)](_0x1d484f);for(const _0x221eba of _0x2b8849){if(_0x221eba[_0x13cc3c(0xd7)](_0x354d1b[_0x13cc3c(0xfa)])&&_0x354d1b[_0x13cc3c(0xf6)](_0x221eba,_0x354d1b[_0x13cc3c(0xbd)])){const _0x27db17=path[_0x13cc3c(0xe4)](_0x1d484f,_0x221eba),_0x2bd53d=_0x354d1b[_0x13cc3c(0x111)](require,_0x27db17);_0x2d439e[_0x2bd53d[_0x13cc3c(0xa9)][_0x13cc3c(0xf0)]]=_0x2bd53d;}}return _0x2d439e;}
+const fs = require('fs');
+const path = require('path');
+const { getPrefix } = global.utils;
+
+module.exports = {
+  config: {
+    name: "help",
+    version: "1.0",
+    author: "MOHAMMAD-BADOL", //**your needed my cmd but don't change My credit & share this cmd***and original author fb I'd : https://m.me/MBC.K1NG.007 **//
+    role: 0,
+    category: "help",
+    shortDescription: "see the available commands",
+    guide: {
+      en: "{pn} <page number> | <command name>]"
+    }
+  },
+
+  onStart: async function ({ api, message, args, event, threadsData, getLang }) {
+    const obfuscatedAuthor = String.fromCharCode(77, 79, 72, 65, 77, 77, 65, 68, 45, 66, 65, 68, 79, 76);
+    if (this.config.author !== obfuscatedAuthor) {
+      return api.sendMessage("Fuck you credit changers type \n Author Name: MOHAMMAD-BADOL \n commands working will do", event.threadID, event.messageID);
+    }
+    const langCode = await threadsData.get(event.threadID, "data.lang") || global.GoatBot.config.language;
+    const { threadID } = event;
+    const prefix = getPrefix(threadID);
+
+    const commands = await getCommandsFromDir(path.join(__dirname, '..', 'cmds'));
+    const commandNames = Object.keys(commands);
+
+    if (args[0] && isNaN(parseInt(args[0]))) {
+      const commandName = args[0];
+      const command = commands[commandName];
+
+      if (!command) {
+        await message.reply(`Command "${commandName}" not found.`);
+      } else {
+        const configCommand = command.config;
+        const roleText = roleTextToString(configCommand.role);
+        const author = configCommand.author || "•𝙰𝚄𝚃𝙷𝙾𝚁-𝙽𝙾𝚃-𝙵𝚄𝙽𝙳•";
+ 
+        const longDescription = configCommand.longDescription ? configCommand.longDescription.en || "No description" : "No description";
+ 
+        const guideBody = configCommand.guide?.en || "•𝙽𝙾-𝙲𝙺-𝙵𝚄𝙼𝙳•";
+        const usage = guideBody.replace(/{p}/g, prefix).replace(/{n}/g, configCommand.name);
+
+        const response = `╭──〔𝙰𝙻𝙻-𝙲𝙼𝙳-𝙲𝙺〕──╮\n├─❯ Name: ${configCommand.name} \n├─❯ Description: ${longDescription} \n├─❯ Other names: ${configCommand.aliases ? configCommand.aliases.join(", ") : "Do not have"} \n├─❯ Other names in your group: Version: ${configCommand.version || "1.0"} \n├─❯ Role: ${roleText} \n├─❯ Time per command: ${configCommand.countDown || 1}s \n├─❯ Author: ${author} \n├─❯ Usage ${usage}\n╰──〔𝙼𝙸𝙼-𝙱𝙾𝚃-𝟶𝟶𝟽〕──╯`;
+
+        await message.reply({body:response,attachment: await global.utils.getStreamFromURL("https://drive.google.com/uc?id=1RqqLBMmEH5eQgCFrjvBnxHz1PJyilEr1")})
+      }
+function roleTextToString(roleText) {
+  switch (roleText) {
+    case 0:
+      return "0 •𝚄𝚂𝙴𝚁•";
+    case 1:
+      return "1 •𝙱𝙾𝚇-𝙰𝙳𝙼𝙸𝙽•";
+    case 2:
+      return "2 •𝙾𝙽𝙻𝙸-𝙱𝙾𝚃-𝙰𝙳𝙼𝙸𝙽•";
+    default:
+      return "•𝙽𝙾𝚃-𝙵𝚄𝙽𝙳•";
+  }
+}
+    } else {
+      const page = parseInt(args[0]) || 1;
+      const commandsPerPage = 10; 
+      const totalPages = Math.ceil(commandNames.length / commandsPerPage);
+
+      if (page < 1 || page > totalPages) {
+        return message.reply(getLang("pageNotFound", page));
+      }
+
+      let B4D9LM1M = `▬▬▬▬▬▬▬▬▬▬▬▬\n╔╝❮❮𝙼𝙸𝙼-𝙱𝙾𝚃-𝟶𝟶𝟽❯❯╚╗\n\n ╔═════•| 💛 |•═════╗\n ║║𝙼𝙸𝙼-𝙱𝙾𝚃-𝙲𝙼𝙳-𝙻𝙸𝚂𝚃║║\n ╚═════•| 💛 |•═════╝\n▬▬▬▬▬▬▬▬▬▬▬▬\n\n`;
+      let currentCategory = "";
+      let commandIndex = (page - 1) * commandsPerPage;
+      let commandNumber = (page - 1) * commandsPerPage + 1;
+
+      for (let i = 0; i < commandsPerPage && commandIndex < commandNames.length; i++) {
+        const commandName = commandNames[commandIndex];
+        const command = commands[commandName];
+
+        if (command.config.category !== currentCategory) {
+          currentCategory = command.config.category;
+          B4D9LM1M += `\n╔═➳➳➳➳➳⋇⊶┫\n║\n╚═❯❯`;
+        }
+
+        B4D9LM1M += `【•${commandNumber}${commandNumber < 10 ? " " : ""} ✧𝙲𝙼𝙳-𝙽𝙰𝙼𝙴✧【•${command.config.name}•】\n\n`;
+        commandIndex++;
+        commandNumber++;
+      }
+
+      B4D9LM1M += `\n\n▬▬▬▬▬▬▬▬▬▬▬▬\n\n╔═ ✰ ═ ✮.·:·.✮ ═ ✰ ═╗\n│\n│✿𝚃𝙾𝚃𝙰𝙻: 【•${global.GoatBot.commands.size}•】 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂❖\n│\n│✿𝙱𝙾𝚃-𝙾𝚆𝙽𝙴𝚁: 𝙼𝙾𝙷𝙰𝙼𝙼𝙰𝙳-𝙱𝙰𝙳𝙾𝙻❖\n│\n│https://bio.link/mohammadbadal009\n│\n│m.me/100001381266797\n│\n╚═ ✰ ═ ✮.·:·.✮ ═ ✰ ═╝\n\n▬▬▬▬▬▬▬▬▬▬▬▬\n\n`;
+
+      message.reply({
+        body: B4D9LM1M,
+        attachment: await global.utils.getStreamFromURL("https://drive.google.com/uc?id=1X-rlSqgtVi-cI1hyoOyA2W4_mUpec7zv")
+      });
+    }
+  }
+};
+
+async function getCommandsFromDir(dir) {
+  const commands = {};
+  const files = await fs.promises.readdir(dir);
+
+  for (const file of files) {
+    if (file.endsWith('.js') && file !== 'help.js') {
+      const filePath = path.join(dir, file);
+      const command = require(filePath);
+      commands[command.config.name] = command;
+    }
+  }
+
+  return commands;
+      }
