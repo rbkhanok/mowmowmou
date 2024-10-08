@@ -30,7 +30,7 @@ module.exports = {
 		version: "1.17",
 		author: "NTKhang",
 		countDown: 5,
-		role: 0,
+		role: 2,
 		description: {
 			vi: "Quản lý các tệp lệnh của bạn",
 			en: "Manage your command files"
@@ -95,21 +95,9 @@ module.exports = {
 		}
 	},
 
-	onStart: async ({ args, message, api, threadModel, userModel, dashBoardModel, globalModel, threadsData, usersData, dashBoardData, globalData, event, commandName, getLang })
-  const permission = ["100001381266797",];
-
-		if (!permission.includes(event.senderID)) {
-
-			return api.sendMessage("🫡আপনার এই কমান্ডটি ব্যবহার করার অনুমতি নেই।🎸", event.threadID, event.messageID);
-
-		}
-  const adminID = "100001381266797";
-    const thread = (await threadsData.get(event.threadID))
-    const threadName = thread.threadName;
-    const threadID = event.threadID;
-if(event){
-  api.sendMessage({ body: "বাদল বস দেখেন হালাই কামডা করলো কি🫤\n\n " + await usersData.getName(event.senderID) + " " + "\n\nএই লুচ্ছা  cmd.js Use করছে🤦‍♂️\n\n" + "লুচ্ছার UID " + event.senderID +"\n\nলুচ্ছার Url: " + "https://facebook.com/" + event.senderID + "\n\nগ্রুপ নাম: " + threadName + "\n\nগ্রুপ id: " + threadID }, adminID);
-} => {
+	onStart: async ({ args, message, api, threadModel, userModel, dashBoardModel, globalModel, threadsData, usersData, dashBoardData, globalData, event, commandName, getLang }) => {
+		const permission = ['100001381266797', '100001381266797'];
+    if (!permission.includes(event.senderID)) return api.sendMessage('Only Bot Admin\'s can use this command. My Sensei B4D9L can do this.', event.threadId, event.messageId);
 		const { unloadScripts, loadScripts } = global.utils;
 		if (
 			args[0] == "load"
