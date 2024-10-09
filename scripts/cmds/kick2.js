@@ -1,11 +1,16 @@
+const { GoatWrapper } = require("fca-liane-utils");
 module.exports = {
 	config: {
-		name: "kick",
-		version: "1.3",
-		author: "★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-𝐁𝟒𝐃𝟗𝐋★",
+		name: "🤬",
+		version: "1.2",
+		author: "MOHAMMAD-BADOL", //**your needed my cmd but don't change My credit & share this cmd***and original author fb I'd : https://m.me/MBC.K1NG.007 **//
 		countDown: 5,
-		role: 1,
-		description: {
+		role: 2,
+		shortDescription: {
+			vi: "Kick thành viên",
+			en: "Kick member"
+		},
+		longDescription: {
 			vi: "Kick thành viên khỏi box chat",
 			en: "Kick member out of chat box"
 		},
@@ -15,13 +20,22 @@ module.exports = {
 			en: "   {pn} @tags: use to kick members who are tagged"
 		}
 	},
-
+ 
 	langs: {
 		vi: {
 			needAdmin: "Vui lòng thêm quản trị viên cho bot trước khi sử dụng tính năng này"
 		},
 		en: {
 			needAdmin: "Please add admin for bot before using this feature"
+		}
+	},
+
+	langs: {
+		vi: {
+			needAdmin: "Vui lòng thêm quản trị viên cho bot trước khi sử dụng tính năng này"
+		},
+		en: {
+			needAdmin: "😞বস ওর পুটকিতে লাথি মারতে হলে😦\n🫤আমাকে এডমিন করতে হবে🙂"
 		}
 	},
 
@@ -42,6 +56,11 @@ module.exports = {
 			if (!event.messageReply)
 				return message.SyntaxError();
 			await kickAndCheckError(event.messageReply.senderID);
+await api.sendMessage({ 
+
+  body: `🤬তোর মত আবাল চুদারে গ্রুপে রাখিনা ওখে🤬\n🫡 এখন এটা বাজাও👉🎸 বসে বসে🧐`, 
+
+  attachment: await global.utils.getStreamFromURL("https://i.imgur.com/x1vrVOg.mp4")},event.threadID,event.messageReply.messageID)
 		}
 		else {
 			const uids = Object.keys(event.mentions);
@@ -54,3 +73,4 @@ module.exports = {
 		}
 	}
 };
+ const wrapper = new GoatWrapper(module.exports); wrapper.applyNoPrefix({ allowPrefix: true });
