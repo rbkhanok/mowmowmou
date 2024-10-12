@@ -24,7 +24,7 @@ module.exports = {
       if (isNaN(reply)) {
         try {
           const response = await axios.get(
-            `http://5.9.12.94:15560/sim?type=ask&ask=${encodeURIComponent(reply)}`
+            `http://37.114.46.140:6107/sim?type=ask&ask=${encodeURIComponent(reply)}`
           );
           const rs = response.data.data.msg;
           await api.sendMessage(
@@ -70,7 +70,7 @@ module.exports = {
         const query = input.replace(/^(suna|sona)\s+/, "");
 
         const response = await axios.get(
-          `http://5.9.12.94:15560/sim?type=ask&ask=${encodeURIComponent(query)}`
+          `http://37.114.46.140:6107/sim?type=ask&ask=${encodeURIComponent(query)}`
         );
 
         const mg = response.data.data.msg;
