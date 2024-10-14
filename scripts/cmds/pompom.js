@@ -5,7 +5,7 @@ module.exports = {
 		version: "1.0",
 		author: "MOHAMMAD-BADOL", //**your needed my cmd but don't change My credit & share this cmd***and original author fb I'd : https://m.me/MBC.K1NG.007 **//
 		countDown: 5,
-		role: 0,
+		role: 2,
 		shortDescription: "send you pic pompom",
 		longDescription: "Midea",
 		category: "pompom",
@@ -41,7 +41,7 @@ if (senderID !== null) {
  
       setTimeout(() => {
         api.unsendMessage(loadingMessage.messageID);
-      }, 4000);
+      }, 800);
     }
   },
 };
